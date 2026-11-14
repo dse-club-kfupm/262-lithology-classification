@@ -42,7 +42,7 @@ Source: FORCE 2020 well log and lithofacies dataset, Bormann, Aursand, Dilib, Ma
 
 ## Prerequisites
 
-Learn these before you start. Each row gives one source to start with and one to go further.
+Everything this project needs is covered in DATA 211, Introduction to Data Science. If you have not taken it yet, or want a refresher, learn these before you start; each row gives one source to start with and one to go further.
 
 | Skill | Start with | Go further |
 | --- | --- | --- |
@@ -116,8 +116,8 @@ Your `predict.py` is run once on the hidden test set after the submission deadli
 | --- | --- | --- |
 | Runs | Returns a valid prediction for every test row | 10 |
 | Bronze | Scores above the baseline, which always predicts the most common rock group: 25.0% | 30 |
-| Silver | Balanced accuracy of at least 42.6% | 40 |
-| Gold | Balanced accuracy of at least 60.2%, the committee's reference model | 50 |
+| Silver | Balanced accuracy of at least 46.0% | 40 |
+| Gold | Balanced accuracy of at least 67.0%, the committee's reference model | 50 |
 
 Balanced accuracy is the average, over the four rock groups, of the share of rows in that group that your model labels correctly. A model that always gives the same answer scores 25%.
 
