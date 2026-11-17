@@ -1,4 +1,4 @@
-"""Submission entry point for 262-rock-reader.
+"""Submission entry point for 262-lithology-classification.
 
 The committee calls predict(df) once on the hidden test set. df has the test
 columns described in the README. Return one of "Shale", "Sandstone", "Carbonate" or "Other" per row,
